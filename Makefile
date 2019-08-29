@@ -1,6 +1,6 @@
-PKGNAME=sdc-nerc-spqrql
+PKGNAME=sdc-nerc-sparql
 SPECFILE=${PKGNAME}.spec
-FILES=sdc-nerc-spqrql.sh ${SPECFILE}
+FILES=sdc-nerc-sparql.sh ${SPECFILE}
 
 PKGVERSION=$(shell grep -s '^Version:' $(SPECFILE) | sed -e 's/Version:\s*//')
 
